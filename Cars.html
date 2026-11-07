@@ -1,0 +1,726 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>سياراتنا | VELORA MOTORS</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script type="text/javascript" src="myFunctions.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <div class="logo">
+
+            <div class="logo-icon">V</div>
+
+            <div class="logo-text">
+
+                <h1>VELORA</h1>
+
+                <span>M O T O R S</span>
+
+            </div>
+
+        </div>
+
+        <div class="navigation">
+
+            <a href="home.html">الرئيسية</a>
+
+            <a href="AboutUs.html">من نحن</a>
+
+            <a href="Cars.html" class="active">سياراتنا</a>
+
+            <a href="Cars.html#availableCardSection" class="nav-button">احجز سيارتك</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- PAGE TITLE -->
+
+    <div class="cars-hero">
+
+        <span>OUR COLLECTION</span>
+
+        <h2>اكتشف مجموعتنا المميزة</h2>
+
+        <p>
+            اختر السيارة التي تناسب رحلتك واستمتع بتجربة VELORA.
+        </p>
+
+    </div>
+
+
+    <!-- CARS TABLE -->
+
+    <div class="cars-container">
+
+        <div class="table-heading" id="availableCardSection">
+
+            <div>
+
+                <span class="small-title">AVAILABLE CARS</span>
+
+                <h2>السيارات المتوفرة للتأجير</h2>
+
+            </div>
+
+            <span class="availability-label">
+                ● السيارات متاحة للطلب
+            </span>
+
+        </div>
+
+
+        <div class="table-responsive">
+
+            <table class="cars-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>الصورة</th>
+
+                        <th>الرمز</th>
+
+                        <th>الموديل</th>
+
+                        <th>سنة الصنع</th>
+
+                        <th>السعر اليومي</th>
+
+                        <th>إظهار التفاصيل</th>
+
+                        <th>اختيار</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <!-- CAR 1 -->
+
+                    <tr class="car-row">
+
+                        <td>
+
+                            <img class="car-thumbnail" src="images/car1.jpg" alt="Toyota Corolla" />
+
+                        </td>
+
+                        <td>CR-001</td>
+
+                        <td>Toyota Corolla</td>
+
+                        <td>2023</td>
+
+                        <td class="price">2500 ل.س</td>
+
+                        <td>
+
+                            <input type="checkbox" class="details-toggle" data-target="details1" id="toggle1" />
+
+                            <label for="toggle1">عرض</label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="checkbox" class="car-select" value="CR-001" data-model="Toyota Corolla"
+                                data-price="2500" id="car1" />
+
+                            <label for="car1">اختيار</label>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="details-row" id="details1">
+
+                        <td colspan="7">
+
+                            <div class="details-content">
+
+                                <strong>تفاصيل السيارة:</strong>
+
+                                <span>نوع الوقود: بنزين</span>
+
+                                <span>ناقل الحركة: أوتوماتيك</span>
+
+                                <span>عدد المقاعد: 5</span>
+
+                                <span>عداد الكيلومترات: 25000 كم</span>
+
+                                <span>اللون: أبيض</span>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- CAR 2 -->
+
+                    <tr class="car-row">
+
+                        <td>
+
+                            <img class="car-thumbnail" src="images/car2.jpg" alt="Kia Sportage" />
+
+                        </td>
+
+                        <td>CR-002</td>
+
+                        <td>Kia Sportage</td>
+
+                        <td>2022</td>
+
+                        <td class="price">4000 ل.س</td>
+
+                        <td>
+
+                            <input type="checkbox" class="details-toggle" data-target="details2" id="toggle2" />
+
+                            <label for="toggle2">عرض</label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="checkbox" class="car-select" value="CR-002" data-model="Kia Sportage"
+                                data-price="4000" id="car2" />
+
+                            <label for="car2">اختيار</label>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="details-row" id="details2">
+
+                        <td colspan="7">
+
+                            <div class="details-content">
+
+                                <strong>تفاصيل السيارة:</strong>
+
+                                <span>نوع الوقود: بنزين</span>
+
+                                <span>ناقل الحركة: أوتوماتيك</span>
+
+                                <span>عدد المقاعد: 5</span>
+
+                                <span>عداد الكيلومترات: 32000 كم</span>
+
+                                <span>اللون: أسود</span>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- CAR 3 -->
+
+                    <tr class="car-row">
+
+                        <td>
+
+                            <img class="car-thumbnail" src="images/car3.jpg" alt="Hyundai Elantra" />
+
+                        </td>
+
+                        <td>CR-003</td>
+
+                        <td>Hyundai Elantra</td>
+
+                        <td>2024</td>
+
+                        <td class="price">3000 ل.س</td>
+
+                        <td>
+
+                            <input type="checkbox" class="details-toggle" data-target="details3" id="toggle3" />
+
+                            <label for="toggle3">عرض</label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="checkbox" class="car-select" value="CR-003" data-model="Hyundai Elantra"
+                                data-price="3000" id="car3" />
+
+                            <label for="car3">اختيار</label>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="details-row" id="details3">
+
+                        <td colspan="7">
+
+                            <div class="details-content">
+
+                                <strong>تفاصيل السيارة:</strong>
+
+                                <span>نوع الوقود: بنزين</span>
+
+                                <span>ناقل الحركة: أوتوماتيك</span>
+
+                                <span>عدد المقاعد: 5</span>
+
+                                <span>عداد الكيلومترات: 15000 كم</span>
+
+                                <span>اللون: فضي</span>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- CAR 4 -->
+
+                    <tr class="car-row">
+
+                        <td>
+
+                            <img class="car-thumbnail" src="images/car4.jpg" alt="Chevrolet Spark" />
+
+                        </td>
+
+                        <td>CR-004</td>
+
+                        <td>Chevrolet Spark</td>
+
+                        <td>2021</td>
+
+                        <td class="price">1800 ل.س</td>
+
+                        <td>
+
+                            <input type="checkbox" class="details-toggle" data-target="details4" id="toggle4" />
+
+                            <label for="toggle4">عرض</label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="checkbox" class="car-select" value="CR-004" data-model="Chevrolet Spark"
+                                data-price="1800" id="car4" />
+
+                            <label for="car4">اختيار</label>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="details-row" id="details4">
+
+                        <td colspan="7">
+
+                            <div class="details-content">
+
+                                <strong>تفاصيل السيارة:</strong>
+
+                                <span>نوع الوقود: بنزين</span>
+
+                                <span>ناقل الحركة: يدوي</span>
+
+                                <span>عدد المقاعد: 4</span>
+
+                                <span>عداد الكيلومترات: 45000 كم</span>
+
+                                <span>اللون: أحمر</span>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- CAR 5 -->
+
+                    <tr class="car-row">
+
+                        <td>
+
+                            <img class="car-thumbnail" src="images/car5.jpg" alt="BMW Series 3" />
+
+                        </td>
+
+                        <td>CR-005</td>
+
+                        <td>BMW Series 3</td>
+
+                        <td>2023</td>
+
+                        <td class="price">5000 ل.س</td>
+
+                        <td>
+
+                            <input type="checkbox" class="details-toggle" data-target="details5" id="toggle5" />
+
+                            <label for="toggle5">عرض</label>
+
+                        </td>
+
+                        <td>
+
+                            <input type="checkbox" class="car-select" value="CR-005" data-model="BMW Series 3"
+                                data-price="5000" id="car5" />
+
+                            <label for="car5">اختيار</label>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="details-row" id="details5">
+
+                        <td colspan="7">
+
+                            <div class="details-content">
+
+                                <strong>تفاصيل السيارة:</strong>
+
+                                <span>نوع الوقود: بنزين</span>
+
+                                <span>ناقل الحركة: أوتوماتيك</span>
+
+                                <span>عدد المقاعد: 5</span>
+
+                                <span>عداد الكيلومترات: 18000 كم</span>
+
+                                <span>اللون: أخضر داكن</span>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+<!-- CAR 6 -->
+<tr class="car-row">
+    <td>
+        <img class="car-thumbnail" src="images/car6.jpg" alt="Nissan Sunny" />
+    </td>
+    <td>CR-006</td>
+    <td>Nissan Sunny</td>
+    <td>2023</td>
+    <td class="price">2200 ل.س</td>
+    <td>
+        <input type="checkbox" class="details-toggle" data-target="details6" id="toggle6" />
+        <label for="toggle6">عرض</label>
+    </td>
+    <td>
+        <input type="checkbox" class="car-select" value="CR-006" data-model="Nissan Sunny" data-price="2200" id="car6" />
+        <label for="car6">اختيار</label>
+    </td>
+</tr>
+<tr class="details-row" id="details6">
+    <td colspan="7">
+        <div class="details-content">
+            <strong>تفاصيل السيارة:</strong>
+            <span>نوع الوقود: بنزين</span>
+            <span>ناقل الحركة: أوتوماتيك</span>
+            <span>عدد المقاعد: 5</span>
+            <span>عداد الكيلومترات: 20000 كم</span>
+            <span>اللون: رمادي</span>
+        </div>
+    </td>
+</tr>
+
+<!-- CAR 7 -->
+<tr class="car-row">
+    <td>
+        <img class="car-thumbnail" src="images/car7.jpg" alt="Ford Explorer" />
+    </td>
+    <td>CR-007</td>
+    <td>Ford Explorer</td>
+    <td>2022</td>
+    <td class="price">4500 ل.س</td>
+    <td>
+        <input type="checkbox" class="details-toggle" data-target="details7" id="toggle7" />
+        <label for="toggle7">عرض</label>
+    </td>
+    <td>
+        <input type="checkbox" class="car-select" value="CR-007" data-model="Ford Explorer" data-price="4500" id="car7" />
+        <label for="car7">اختيار</label>
+    </td>
+</tr>
+<tr class="details-row" id="details7">
+    <td colspan="7">
+        <div class="details-content">
+            <strong>تفاصيل السيارة:</strong>
+            <span>نوع الوقود: بنزين</span>
+            <span>ناقل الحركة: أوتوماتيك</span>
+            <span>عدد المقاعد: 7</span>
+            <span>عداد الكيلومترات: 28000 كم</span>
+            <span>اللون: أزرق داكن</span>
+        </div>
+    </td>
+</tr>
+
+<!-- CAR 8 -->
+<tr class="car-row">
+    <td>
+        <img class="car-thumbnail" src="images/car8.jpg" alt="Mazda 6" />
+    </td>
+    <td>CR-008</td>
+    <td>Mazda 6</td>
+    <td>2024</td>
+    <td class="price">3500 ل.س</td>
+    <td>
+        <input type="checkbox" class="details-toggle" data-target="details8" id="toggle8" />
+        <label for="toggle8">عرض</label>
+    </td>
+    <td>
+        <input type="checkbox" class="car-select" value="CR-008" data-model="Mazda 6" data-price="3500" id="car8" />
+        <label for="car8">اختيار</label>
+    </td>
+</tr>
+<tr class="details-row" id="details8">
+    <td colspan="7">
+        <div class="details-content">
+            <strong>تفاصيل السيارة:</strong>
+            <span>نوع الوقود: بنزين</span>
+            <span>ناقل الحركة: أوتوماتيك</span>
+            <span>عدد المقاعد: 5</span>
+            <span>عداد الكيلومترات: 10000 كم</span>
+            <span>اللون: أحمر غامق</span>
+        </div>
+    </td>
+</tr>
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <div class="selection-footer">
+
+            <p>
+                يمكنك اختيار سيارة واحدة أو أكثر لإرسال طلب الحجز.
+            </p>
+
+            <button type="button" id="continueBtn" class="main-button">
+                متابعة الحجز ←
+            </button>
+
+        </div>
+
+
+        <!-- BOOKING FORM -->
+
+        <div id="bookingSection" class="booking-section">
+
+            <div class="section-heading">
+
+                <span>BOOKING INFORMATION</span>
+
+                <h2>نموذج طلب الحجز</h2>
+
+                <p>يرجى إدخال معلوماتك لإتمام طلب الحجز.</p>
+
+            </div>
+
+
+            <form id="bookingForm" action="#" method="post">
+
+                <fieldset>
+
+                    <legend>المعلومات الشخصية</legend>
+
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+
+                            <label for="fullName">
+                                الاسم الكامل
+                            </label>
+
+                            <input type="text" id="fullName" name="fullName" placeholder="أدخل اسمك باللغة العربية" />
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="nationalId">
+                                الرقم الوطني *
+                            </label>
+
+                            <input type="text" id="nationalId" name="nationalId" maxlength="11" placeholder="11 خانة"
+                                required="required" />
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="mobile">
+                                رقم الموبايل
+                            </label>
+
+                            <input type="tel" id="mobile" name="mobile" maxlength="10" placeholder="09XXXXXXXX"
+                                dir="rtl" />
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                البريد الإلكتروني
+                            </label>
+
+                            <input type="email" id="email" name="email" placeholder="example@email.com" />
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <legend>معلومات التأجير</legend>
+
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+
+                            <label for="startDate">
+                                تاريخ بداية التأجير *
+                            </label>
+
+                            <input type="date" id="startDate" name="startDate" required="required"
+                                placeholder="يوم / شهر / سنة " />
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="endDate">
+                                تاريخ نهاية التأجير *
+                            </label>
+
+                            <input type="date" id="endDate" name="endDate" required="required"
+                                placeholder="يوم / شهر / سنة " />
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+
+                <div class="required-note">
+                    * الحقول المشار إليها إلزامية.
+                </div>
+
+
+                <div class="form-buttons">
+
+                    <button type="submit" class="main-button">
+                        إرسال طلب الحجز
+                    </button>
+
+                    <button type="reset" class="reset-button">
+                        إعادة تعيين
+                    </button>
+
+                </div>
+
+            </form>
+
+
+            <!-- RESULT -->
+
+            <div id="resultSection" class="result-section">
+
+                <div class="result-icon">✓</div>
+
+                <h2>تم التحقق من طلبك بنجاح!</h2>
+
+                <p>
+                    فيما يلي تفاصيل طلب الحجز والحساب النهائي.
+                </p>
+
+                <div id="resultContent"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <div class="footer-logo">VELORA MOTORS</div>
+
+        <p>Elegance in Every Journey.</p>
+
+        <div class="footer-links">
+
+            <a href="home.html">الرئيسية</a>
+
+            <a href="AboutUs.html">من نحن</a>
+
+            <a href="Cars.html">السيارات</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 VELORA MOTORS. All Rights Reserved.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
